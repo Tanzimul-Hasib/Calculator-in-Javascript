@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\main.css" class="css">
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg col-md-1 col-sm-12"></div>
+        <div class="col-md-9 col-sm-12 col-lg-6 cal_wraper">
+          <!-- card start -->
+          <div class="card" style="max-width: 30rem;">
+            <div class="inputfields">
+                <div class="row">
+                  <div class="inputfield-wrap col-10">
+                    <input id="inputBox2" class="form-control inputfield2" type="text" placeholder="" value="" readonly>
+                    <input id="inputBox1" class="form-control inputfield1" type="text" placeholder="Enter Number"value="">
+                  </div>
+                  <div class="backbtn col-2">
+                    <button type="button" class="btn btn-dark btncustom"><img src="icon\icons8_Unavailable_24px.png" alt=""></button>
+                  </div>
+                </div>
+            </div>
+            <!--  Card body start-->
+              <div class="card-body">
+                <div class="row">
+                  <!-- BUtton Left start-->
+                  <div class="col-5 btn-box">
+                    <button id="num7"onclick="fNum7()" value="7" type="button" class="btn btnDesignAll btnNumCustom">7</button>
+                    <button id="num8"onclick="fNum8()" value="8" type="button" class="btn btnDesignAll btnNumCustom">8</button>
+                    <button id="num9"onclick="fNum9()" value="9" type="button" class="btn btnDesignAll btnNumCustom">9</button>
+                    <button id="num4"onclick="fNum4()" value="4" type="button" class="btn btnDesignAll btnNumCustom">4</button>
+                    <button id="num5"onclick="fNum5()" value="5" type="button" class="btn btnDesignAll btnNumCustom">5</button>
+                    <button id="num6"onclick="fNum6()" value="6" type="button" class="btn btnDesignAll btnNumCustom">6</button>
+                    <button id="num1"onclick="fNum1()" value="1" type="button" class="btn btnDesignAll btnNumCustom">1</button>
+                    <button id="num2"onclick="fNum2()" value="2" type="button" class="btn btnDesignAll btnNumCustom">2</button>
+                    <button id="num3"onclick="fNum3()" value="3" type="button" class="btn btnDesignAll btnNumCustom">3</button>
+                    <button id="num0"onclick="fNum0()" value="0" type="button" class="btn btnDesignAll btnNumCustomfor0">0</button>
+                    <button id="numDot"onclick="fNumDot()" value="." type="button" class="btn btnDesignAll btnNumCustom">.</button>
+
+                  </div>
+                  <!-- Vertical line -->
+                  <div class="col-2 vr">
+                    <div class="vertical-line col-6"></div>
+                  </div>
+                  <!-- Right buttons -->
+                  <div class="col-5 btn-box">
+                    <button type="button" onclick="fnClean()" class="btn btnDesignAll btnNumCustomforClean">Clean</button>
+                    <button type="button" onclick="fnPlus()" class="btn btnDesignAll btnNumCustomForOperator">+</button>
+                    <button type="button" onclick="fnMinus()" class="btn btnDesignAll btnNumCustomForOperator">-</button>
+                    <button type="button" onclick="fnMulti()" class="btn btnDesignAll btnNumCustomForOperator">x</button>
+                    <button type="button" onclick="fnDiv()" class="btn btnDesignAll btnNumCustomForOperator">/</button>
+                    <button type="button" onclick="fnCalc()" class="btn btnDesignAll btnNumCustomforCalculate">Calculate</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- Card end -->
+        </div>
+        <div class="col-lg col-md-2 col-sm-12"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js\Calculator.js"type="text/javascript">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-></script>
+  </body>
+</html>

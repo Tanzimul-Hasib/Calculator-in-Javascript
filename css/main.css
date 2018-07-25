@@ -1,0 +1,124 @@
+
+
+.inputfield2{
+  border-style:none;
+  text-align: right;
+}
+
+.inputfield1{
+  text-align: right;
+  border-style: none;
+}
+.inputfields {
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid grey;
+
+}
+.inputfield-wrap{
+  padding-right: 0px;
+
+  //position: relative;
+}
+.btncustom{
+  height: 100%;
+  width: 100%;
+}
+.backbtn{
+    padding-left: 0px;
+}
+.card-body{
+  background-color: #006666;
+  padding-top: 0;
+}
+.vertical-line{
+  border-right: 1px solid white;
+  height:220px;
+  padding: 0px;
+}
+.btnNumCustom{
+  width: 27%;
+  height: 40px;
+  /* padding: 5px; */
+  margin-top: 15px;
+  margin-left: 3%;
+}
+.btnNumCustom:hover,.btnNumCustomfor0:hover,.btnNumCustomForOperator:hover,.btnNumCustomforClean:hover,.btnNumCustomforCalculate:hover{
+  background-color: #fff;
+  border-bottom: 2px solid grey;
+  border-left: 1px solid grey;
+}
+.btnNumCustomfor0{
+  width: 60%;
+  height: 40px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 5px;
+
+}
+
+.btnNumCustomForOperator{
+  width: 41%;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.btnNumCustomforClean{
+  width: 86%;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.btnNumCustomforCalculate{
+  width: 86%;
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.btnDesignAll{
+  text-align: center;
+
+}
+
+.btn-box{padding:0;}
+.vr{padding: 0;}
+.btn{font-weight: bold;
+  font-size: 140%;
+}
+.cal_wraper{
+  padding: 0;
+}
+/* .card{border-top-left-radius: 5px;border-top-left-radius: 5px;} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
